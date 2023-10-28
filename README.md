@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Argent Bank - Implémentez le front-end d'une application bancaire avec React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Argent Bank est un projet réalisé dans le cadre du parcours de formation d'un étudiant chez OpenClassrooms. Le but est de transformer un site web d'une banque fictive en une application React, en utilisant également le state manager Redux pour gérer l'état global de l'application.
 
-In the project directory, you can run:
+## Objectifs du Projet
 
-### `npm start`
+Les principaux objectifs de ce projet sont les suivants :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Créer une application web React pour l'authentification des utilisateurs.
+- Utiliser Redux pour gérer l'état global de l'application.
+- Permettre aux utilisateurs de se connecter, de visualiser leur profil, de se déconnecter et de gérer leur profil.
+- Intégrer des bonnes pratiques de Green Code, notamment l'optimisation des images et la création de composants réutilisables.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Compétences visées
 
-### `npm test`
+Ce projet vise à développer les compétences suivantes :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Afficher les données du backend sur l'interface via des appels API.
+- Configurer des routes API pour la communication client/serveur.
+- Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Auteur
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ce projet est réalisé par Antunes David.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prérequis
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Argent Bank utilise la pile technologique suivante :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Node.js v12](https://nodejs.org/en/)
+- [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Assurez-vous d'avoir les bonnes versions et téléchargez les deux packages. Vous pouvez vérifier cela en utilisant les commandes suivantes dans votre terminal :
 
-## Learn More
+```bash
+# Vérifier la version de Node.js
+node --version
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Vérifier la version de Mongo
+mongo --version
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Instructions
 
-### Code Splitting
+**Instructions d'installation :**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clonez ce référentiel sur votre ordinateur en utilisant la commande :
+   ```
+   git clone https://github.com/AntunesD/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React.git
+   ```
 
-### Analyzing the Bundle Size
+2. Ouvrez une fenêtre de terminal dans le projet cloné.
+3. Exécutez les commandes suivantes :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+# Installer les dépendances
+npm install
 
-### Making a Progressive Web App
+# Démarrer le serveur de développement local
+npm run dev:server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Remplir la base de données avec deux utilisateurs
+npm run populate-db
+```
 
-### Advanced Configuration
+Votre serveur devrait maintenant être en cours d'exécution à l'adresse http://locahost:3001 et vous avez désormais deux utilisateurs dans votre base de données MongoDB !
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Données de la Base de Données Pré-remplies
 
-### Deployment
+Une fois que vous exécutez le script `populate-db`, vous devriez avoir deux utilisateurs dans votre base de données :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Tony Stark
 
-### `npm run build` fails to minify
+- Prénom : `Tony`
+- Nom : `Stark`
+- Email : `tony@stark.com`
+- Mot de passe : `password123`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Steve Rogers
+
+- Prénom : `Steve`
+- Nom : `Rogers`
+- Email : `steve@rogers.com`
+- Mot de passe : `password456`
+
+## Documentation de l'API
+
+Pour en savoir plus sur le fonctionnement de l'API, une fois que vous avez démarré votre environnement local, vous pouvez visiter : http://localhost:3001/api-docs
