@@ -96,7 +96,7 @@ function Login() {
               id="remember-me"
               onChange={() => setRememberMe(!rememberMe)}
             />
-            <label htmlFor="remember-me">Se souvenir de moi</label>
+            <label htmlFor="remember-me">Remember me</label>
           </div>
           <button type="submit" className="sign-in-button">
             Connexion

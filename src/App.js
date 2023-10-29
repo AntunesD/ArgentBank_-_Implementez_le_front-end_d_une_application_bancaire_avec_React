@@ -29,6 +29,12 @@ function App() {
                 <Route element={<Home />} path="/" exact />
                 <Route element={<Login />} path="/Login" exact />
                 <Route element={<Profile />} path="/Profile" />
+
+                <Route
+              element={<Home />}
+              path="/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/"
+            />
+
               </Routes>
             </Layout>
       </BrowserRouter>

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://antunesd.github.io/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/",
   "name": "react-argent-bank",
   "version": "0.1.0",
   "private": true,
@@ -32,7 +33,9 @@
     "eject": "react-scripts eject",
     "dev:server": "nodemon ./server/server.js",
     "populate-db": "node ./server/scripts/populateDatabase.js",
-    "server": "node ./server/server.js"
+    "server": "node ./server/server.js",
+    "deploy" : "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
@@ -51,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }

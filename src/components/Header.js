@@ -1,11 +1,16 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
+import URL from '../URL';
+import { useSelector,useDispatch } from 'react-redux';
+import { logout } from '../redux/reducers/AuthReducer';
 
-function Header({ user, logout }) {
+function Header() {
   const navigate = useNavigate();
+  const user = useSelector((state) => state.auth.user);
+  const dispatch = useDispatch();
 
   const handleSignOut = () => {
-    logout();
+    dispatch(logout());
     navigate("/");
   };
 
@@ -14,7 +19,7 @@ function Header({ user, logout }) {
       <a className="main-nav-logo" href="./">
         <img
           className="main-nav-logo-image"
-          src="/img/argentBankLogo.png"
+          src= {`${URL}/img/argentBankLogo.png`}
           alt="Argent Bank Logo"
         />
         <h1 className="sr-only">Argent Bank</h1>
@@ -33,7 +38,6 @@ function Header({ user, logout }) {
           </div>
         ) : (
           <a className="main-nav-item" href="./login">
-            <i className="fa fa-user-circle"></i>
             Sign In
           </a>
         )}
