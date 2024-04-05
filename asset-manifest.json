@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/css/main.c75f98e4.css",
-    "main.js": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/js/main.5e34c449.js",
+    "main.css": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/css/main.1fac19d9.css",
+    "main.js": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/js/main.703b195f.js",
     "static/js/787.63b7549f.chunk.js": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/js/787.63b7549f.chunk.js",
-    "static/media/bank-tree.jpeg": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/media/bank-tree.4d59987c7c62b024b014.jpeg",
+    "static/media/bank-tree.webp": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/media/bank-tree.efcfe5893d3a6be4299d.webp",
     "index.html": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/index.html",
-    "main.c75f98e4.css.map": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/css/main.c75f98e4.css.map",
-    "main.5e34c449.js.map": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/js/main.5e34c449.js.map",
+    "main.1fac19d9.css.map": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/css/main.1fac19d9.css.map",
+    "main.703b195f.js.map": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/js/main.703b195f.js.map",
     "787.63b7549f.chunk.js.map": "/ArgentBank_-_Implementez_le_front-end_d_une_application_bancaire_avec_React/static/js/787.63b7549f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c75f98e4.css",
-    "static/js/main.5e34c449.js"
+    "static/css/main.1fac19d9.css",
+    "static/js/main.703b195f.js"
   ]
 }
